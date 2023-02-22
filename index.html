@@ -120,7 +120,7 @@
             </div>
 
             <div class="row p-5">
-                <div class="col-10 col-md-12">
+                <div class="col-12 col-md-12">
                 <div class="card">
                     <div class="card-header">LISTADO DE ALUMNOS</div>
                     <div class="card-body">
@@ -159,8 +159,8 @@
                         </table>
                     </div>
                 </div>
+                </div>
             </div>
-          </div>
         </div>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
@@ -170,7 +170,7 @@
         createApp({
             data() {
                 return {
-                    /*db:'',*/
+                   // db:'',
                     accion:'nuevo',
                     buscar: '',
                     alumnos: [],
@@ -248,7 +248,7 @@
                 };
             },*/
             created(){
-                /*this.abrirBD();*/
+               // this.abrirBD();
                 this.listarAlumnos();
             }
         }).mount('#app');
